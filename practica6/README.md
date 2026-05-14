@@ -13,6 +13,8 @@ Simulación educativa del funcionamiento general de un keylogger desarrollado pa
 - yagmail
 - pynput
 - smtlib 
+- keyboard
+- pyxhook
 
 
 ---
@@ -28,4 +30,11 @@ Simulación educativa del funcionamiento general de un keylogger desarrollado pa
 
 ## Ejecución
 
+Dar permisos:
+chmod +x Cleanup.sh
+
+Ejecución del keylogger:
 python3 keylogger.py
+
+Eliminar el rastro: 
+./Cleanup.sh
